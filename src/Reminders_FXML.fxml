@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Reminders_FXML_Controller">
+   <children>
+      <TextField fx:id="textFieldSubject" layoutX="224.0" layoutY="40.0" prefHeight="32.0" prefWidth="247.0" />
+      <TextArea fx:id="textAreaWords" layoutX="-2.0" layoutY="100.0" prefHeight="129.0" prefWidth="600.0" />
+      <Label layoutX="161.0" layoutY="40.0" prefHeight="32.0" prefWidth="63.0" text="Subject:" />
+      <Button layoutX="257.0" layoutY="337.0" mnemonicParsing="false" onAction="#save" prefHeight="49.0" prefWidth="91.0" text="Save" />
+      <TextField fx:id="textFieldName" layoutX="224.0" layoutY="256.0" />
+      <Label layoutX="180.0" layoutY="253.0" prefHeight="32.0" prefWidth="44.0" text="Name:" />
+      <Label layoutX="222.0" prefHeight="38.0" prefWidth="152.0" style="-fx-font-size: 30;" text="Reminders" />
+   </children>
+</AnchorPane>
